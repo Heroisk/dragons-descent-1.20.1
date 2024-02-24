@@ -2,6 +2,7 @@ package net.tmc.dragonsdescent;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.tmc.dragonsdescent.item.ModItemGroups;
 import net.tmc.dragonsdescent.item.ModsItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +16,7 @@ public class DragonsDescent implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
-
+		ModItemGroups.registerItemGroup();
 		ModsItems.registerModItems();
 	}
 }

@@ -13,11 +13,11 @@ import net.tmc.dragonsdescent.DragonsDescent;
 public class ModsItems {
 
     // Where you put new items added
-    public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item TESTITEM = registerItem("testitem", new Item(new FabricItemSettings()));
 
     // This makes them appear in creative inventory
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries){
-        entries.add(RUBY);
+        entries.add(TESTITEM);
     }
 
     // These two functions are used to register the items
