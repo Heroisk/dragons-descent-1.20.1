@@ -17,6 +17,8 @@
 	"entrypoints": {
 		"main": [
 			"net.tmc.dragonsdescent.DragonsDescent"
+		],"client": [
+			"net.tmc.dragonsdescent.DragonsDescentClient"
 		],
 		"fabric-datagen": [
 			"net.tmc.dragonsdescent.DragonsDescentDataGenerator"
